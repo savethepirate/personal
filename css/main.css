@@ -1,0 +1,128 @@
+/***** BASE STYLES *****/
+html, body{
+    background: url('../img/chris1.png') no-repeat left fixed; 
+    background-size: cover;
+    height:100%;
+} 
+
+
+h1,h2,h3,h4,p{
+    font-family: 'Open Sans', serif;
+    color: #f8d4a6;
+}
+h1{
+    font-size:35px;
+}
+h2{
+    font-size:32px;
+}
+h3{
+    font-size:24px;
+}
+h4{
+    font-size:18px;
+}
+p{
+    font-size:14px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    margin: 0 auto;
+    min-height:100%;
+}
+.contact-left, .cv-middle, .social-right{
+    width:32%;
+}
+/***** HEADER SECTION *****/
+header{
+    min-height:100%;
+}
+header h1{
+    font-family: 'Aladin', serif;
+    color: #f8d4a6;
+    text-align: center;
+    letter-spacing: 4px;
+}
+header p{
+    font-family: 'Open Sans', serif;
+    color: #f8d5a6b2;
+    text-align: center;
+ 
+}
+.left-header{
+    float:left;
+}
+.right-header{
+    float:right;
+    padding:200px 150px 0 150px;
+}
+.name{
+    padding:5px;
+    border-bottom:1px solid #f8d4a6;
+    margin:0 auto;
+}
+.skills{
+    margin:0px auto;
+}
+
+/***** MAIN SECTION *****/
+.skills-box {
+   
+    background-color:rgba(0, 0, 0, 0.479);
+    height:25px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 3rem;
+    position: absolute;
+}
+
+
+/***** FOOTER SECTION *****/
+.footer-push{
+    height:45px;
+}
+.footer{
+    background-color:rgb(0, 0, 0);
+    height: 45px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 1rem;
+    position: absolute;
+}
+.footer p{
+    padding: 3px 0px 4px 30px;
+    font-size:12px;
+}
+.contact-left, .cv-middle,.social-right{
+    float:left;
+}
+.contact-left{
+    text-align: left;
+    padding: 8px 0 8px 5px;
+    margin: 0 auto;
+}
+.email{
+    padding:5px;
+}
+.cv-middle{
+    padding: 10px 0 10px 0;
+    text-align:center;
+}
+.social-right{
+    padding: 6px 0 0 0;
+    text-align:right;
+    
+}
+.cv-link{
+    text-decoration: none;
+    color:#f8d4a6;
+    font-size:24px;
+    font-family: 'Aladin', serif;
+}
+.social-icon{
+    margin: 5px;
+}
